@@ -39,6 +39,7 @@ This bootloader is ideal for:
 ---
 
 ## 📂 Project Structure
+```
 .
 ├── Core/
 │ ├── Inc/ # Header files
@@ -50,7 +51,7 @@ This bootloader is ideal for:
 ├── main.c # Entry point
 ├── README.md # This documentation
 └── ...
-
+```
 
 ---
 
@@ -85,7 +86,7 @@ Baud rate is configurable in `usart.c` (default **115200 bps**).
 ---
 
 ## 📊 Bootloader Flowchart (Text Form)
-
+```
 Start
  │
  ▼
@@ -152,7 +153,7 @@ Loop Forever
  │     └─> Return to Wait for Next Command
  │
  └─> (Loop repeats)
-
+```
 
 ---
 
