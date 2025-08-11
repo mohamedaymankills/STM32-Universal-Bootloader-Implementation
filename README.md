@@ -60,15 +60,14 @@ This bootloader is ideal for:
 | Command ID | Command Name            | Description |
 |------------|------------------------|-------------|
 | `0x00`     | GET                     | List supported commands |
-| `0x01`     | GET VERSION              | Report bootloader firmware version |
-| `0x02`     | GET HELP                 | Help & usage information |
-| `0x03`     | GET CHIP ID              | Return MCU ID |
-| `0x04`     | READ PROTECTION STATUS   | Check flash read protection |
-| `0x05`     | GO TO ADDRESS            | Jump to user application |
-| `0x06`     | FLASH ERASE              | Erase flash sectors |
-| `0x07`     | MEMORY WRITE             | Write data to flash |
-| `0x08`     | ENABLE RDP LEVEL 1       | Enable read protection |
-| `0x09`     | DISABLE RDP              | Disable read protection |
+| `0x10`     | GET VERSION              | Report bootloader firmware version |
+| `0x11`     | GET HELP                 | Help & usage information |
+| `0x12`     | GET CHIP ID              | Return MCU ID |
+| `0x13`     | READ PROTECTION STATUS   | Check flash read protection |
+| `0x14`     | GO TO ADDRESS            | Jump to user application |
+| `0x15`     | FLASH ERASE              | Erase flash sectors |
+| `0x16`     | MEMORY WRITE             | Write data to flash |
+| `0x17`     | ENABLE RDP LEVEL 1       | Enable read protection |
 
 ---
 
