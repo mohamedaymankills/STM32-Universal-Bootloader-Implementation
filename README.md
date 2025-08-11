@@ -1,4 +1,4 @@
-# STM32-Universal-Bootloader-Implementation
+# STM32 Universal Bootloader Implementation
 # STM32 Universal UART Bootloader
 
 ## 📜 Overview
